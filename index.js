@@ -7,10 +7,10 @@ function writeCards(arrayName, eventName) {
     return thankYou
 }
 
-function countDown() {
-    let countDown = 10
-    while (countDown >= 0) {
-        console.log(countDown--)
+function countDown(number) {
+    let value = number
+    while (value >= 0) {
+        console.log(value--)
     }
-debugger
+return number
 }
